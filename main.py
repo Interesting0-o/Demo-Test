@@ -1,5 +1,4 @@
 import numpy as np
-
-new_array = np.empty((5,5))
-new_array[:,:] = 1
+new_array = np.load("new_array.npy")
+print(new_array.ndim)
 print(new_array)
